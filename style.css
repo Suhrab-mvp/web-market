@@ -1,0 +1,166 @@
+/*______________________________________________*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #d2d1d1;
+    background-color: #313030;
+}
+
+/*__________________________________________*/
+
+.header .container {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.header {
+    background: rgba(34, 34, 34, 0.8); 
+    color: #fff;
+    padding: 0rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(5px); 
+}
+
+.text{
+    margin-top: -10px;
+}
+
+.logo {
+    padding-left: 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #e5920e;
+}
+
+.nav {
+    padding-right: 20px;
+    display: flex; 
+    gap: 50px; 
+}
+
+.nav a {
+    color: #e6970e;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/*_______________________________________________*/
+
+.hero {
+    background-color: #b47216;
+    color: #2a2929;
+    text-align: center;
+    padding: 15rem 0rem;
+}
+
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero .btn {
+    background: #4a453b;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+.hero .btn:hover {
+    background: #d5552f;
+    transition: 0.5s ease, color 0.5s ease; 
+}
+
+/* Секция товаров */
+
+.products {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.product-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background: #4e4e4e;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    width: 300px;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product-card button {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.product-card button:hover {
+    background: #0056b3;
+}
+
+/* О нас */
+
+.about, .contact {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+/* Форма контакта */
+
+form input, form textarea, form button {
+    width: 50%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background: #28a745;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #218838;
+}
+
+/* Подвал */
+
+.footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
